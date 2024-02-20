@@ -1,0 +1,19 @@
+.postButton {
+  width: 15vw;
+  background: rgba(122, 69, 207, 0.87);
+  color: rgba(255, 255, 255, 0.904);
+  border: none;
+  border-radius: 8px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.postButton:disabled {
+  width: 15vw;
+  background: rgba(0, 0, 0, 0.247);
+  color: rgba(255, 255, 255, 0.904);
+  border: none;
+  border-radius: 8px;
+  padding: 15px 10px;
+  cursor: default;
+}
